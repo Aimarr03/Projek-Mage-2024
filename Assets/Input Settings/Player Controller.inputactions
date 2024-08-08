@@ -1,0 +1,84 @@
+{
+    "name": "Player Controller",
+    "maps": [
+        {
+            "name": "Player One",
+            "id": "9282afd3-1ca7-4cdf-9e35-07c01108792e",
+            "actions": [
+                {
+                    "name": "Move Controller",
+                    "type": "Value",
+                    "id": "0a6ba9e7-2ff1-44ff-a7a9-7fc431e4b6b9",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "2D Vector",
+                    "id": "8c1f1194-fb76-49d1-bdba-5d04728fe417",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move Controller",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "bab8a14e-2f68-4a95-a88d-883ced85e917",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default Controller",
+                    "action": "Move Controller",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "4b022536-a996-498f-80d5-b5d7d561023d",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default Controller",
+                    "action": "Move Controller",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "5d0511a0-fb47-48db-98df-8a0a7daac650",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default Controller",
+                    "action": "Move Controller",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "7c14cd7b-c5ff-4dd5-9cc6-cfbbb2a75ae7",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Default Controller",
+                    "action": "Move Controller",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Default Controller",
+            "bindingGroup": "Default Controller",
+            "devices": []
+        }
+    ]
+}
